@@ -45,18 +45,23 @@ Enter a text prompt in the input field and click Generate Image.
 The generated image will be displayed in the window. You can then save the image by clicking Save Image.
 
 Files
-app.py: The main application file containing the GUI and logic for generating and saving images.
-requirements.txt: Lists the Python dependencies needed to run the project.
-assets/: Folder to store images like screenshots for the README.
+   app.py: The main application file containing the GUI and logic for generating and saving images.
+   requirements.txt: Lists the Python dependencies needed to run the project.
+   assets/: Folder to store images like screenshots for the README.
 Dependencies
+
 The project depends on the following Python libraries:
 
 torch: PyTorch for running the Stable Diffusion model with GPU support.
 diffusers: To load and run the Stable Diffusion model.
 Pillow: For image handling in Python.
 Tkinter: For building the graphical interface.
-#Notes
+
+Notes
 Make sure to have CUDA installed and properly set up if you want to run the model on the GPU.
 The application will automatically use CPU if CUDA is unavailable, though the generation might be slower.
+
+
 License
+
 This project is licensed under the MIT License. See the LICENSE file for more information.
