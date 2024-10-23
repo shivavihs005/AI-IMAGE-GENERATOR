@@ -39,17 +39,17 @@ Usage
 Run the application:
 
 
-python app.py
+    python app.py
 Enter a text prompt in the input field and click Generate Image.
 
 The generated image will be displayed in the window. You can then save the image by clicking Save Image.
 
-#Files
+Files
 app.py: The main application file containing the GUI and logic for generating and saving images.
 requirements.txt: Lists the Python dependencies needed to run the project.
 assets/: Folder to store images like screenshots for the README.
-#Dependencies
-#The project depends on the following Python libraries:
+Dependencies
+The project depends on the following Python libraries:
 
 torch: PyTorch for running the Stable Diffusion model with GPU support.
 diffusers: To load and run the Stable Diffusion model.
